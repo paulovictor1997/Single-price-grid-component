@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  font-family: 'Karla';
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #98a6bd;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cabecalho {
+  max-width: 700px;
+  background-color: #e5eff5;
+  padding: 10px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.conteudo {
+  width: 350px;
+  height: 200px;
+  background-color: #2ab2af;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 16px;
+}
+
+h1 {
+  color: #2ab2af;
+  margin-top: 10px;
+}
+
+.subtitulo {
+  color: #c0df34;
+  margin-top: 10px;
+}
+
+.descricao {
+  color: #98a6bd;
+  margin-top: 10px;
+}
+
+.descricao2 {
+  color: #e5eff5;
+  margin-top: 10px;
+}
+
+.titulo2 {
+  margin-top: 10px;
+}
+
+.titulo3 {
+  margin-top: 10px;
+}
+
+h3 {
+  color: #e5eff5;
+  margin-top: 10px;
+}
+
+li {
+  list-style: none;
+  color: #e5eff5;
+}
+
+.button {
+  margin-top: 30px;
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  background-color: #c0df34;
+  cursor: pointer;
+  color: #e5eff5;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cabecalho {
+    max-width: 350px;
+    height: 200px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */

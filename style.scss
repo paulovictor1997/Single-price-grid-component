@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    font-family: 'Karla';
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+$cor1:hsl(179, 62%, 43%);
+$cor2:hsl(71, 73%, 54%);
+$cor3:hsl(204, 43%, 93%);
+$cor4:hsl(218, 22%, 67%);
+
+body{
+    background-color: $cor4;
+    
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.cabecalho{
+    max-width: 700px;
+    background-color: $cor3;
+    padding: 10px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.conteudo{
+    width: 350px;
+    height: 200px;
+    background-color: $cor1;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+h1{
+    color: $cor1;
+    margin-top: 10px;
+}
+
+.subtitulo{
+    color: $cor2;
+    margin-top: 10px;
+}
+
+.descricao{
+    color: $cor4;
+    margin-top: 10px;
+}
+
+.descricao2{
+    color: $cor3;
+    margin-top: 10px;
+}
+
+.titulo2{
+    margin-top: 10px;
+}
+
+.titulo3{
+    margin-top: 10px;
+}
+
+h3{
+    color: $cor3;
+    margin-top: 10px;
+}
+
+li{
+    list-style: none;
+    color: $cor3;
+}
+
+.button{
+    margin-top: 30px;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    background-color: $cor2;
+    cursor: pointer;
+    color: $cor3;
+}
+
+@media screen and (max-width:700px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho{
+        max-width: 350px;
+        height: 200px;
+        flex-direction: column;
+    }
+}
